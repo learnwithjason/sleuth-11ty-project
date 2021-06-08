@@ -52,7 +52,7 @@
     <script>
       Sentry.init({
         dsn: "https://de60482746b549f2b317790a1bc7d8d8@o530194.ingest.sentry.io/5807120",
-        integrations: [new Integrations.BrowserTracing()],
+        integrations: [new Sentry.Integrations.BrowserTracing()],
 
         // Set tracesSampleRate to 1.0 to capture 100%
         // of transactions for performance monitoring.
