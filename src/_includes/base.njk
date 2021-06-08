@@ -44,7 +44,7 @@
       title="RSS Feed for {{ meta.siteName }}"
       href="/feed/"
     />
-    <script
+    {# <script
       src="https://browser.sentry-cdn.com/6.5.1/bundle.min.js"
       integrity="sha384-4+IdsjFHpxfo2PQYne6sV0ulAlOJbJHbeEy4vDPAt9kUmUb9t0W2HFp6I6rznkEP"
       crossorigin="anonymous"
@@ -59,7 +59,7 @@
         // We recommend adjusting this value in production
         tracesSampleRate: 1.0,
       });
-    </script>
+    </script> #}
   </head>
   <body>
     {{ content | safe }}
