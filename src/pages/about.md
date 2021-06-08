@@ -3,7 +3,7 @@ title: "About"
 description: "Review feature info and customization details."
 ---
 
-## Intro to Jumpstart
+## This Will Make It Healthy!
 
 This jumpstart is intended to be _just enough_ to be a functional site/blog using 11ty, and also to introduce essential 11ty features.
 
@@ -19,7 +19,11 @@ I spent a decade creating WordPress themes and plugins then flipped to product d
 
 ### Jump to:
 
+- [This Will Make It Healthy!](#this-will-make-it-healthy)
+	- [Colophon](#colophon)
+	- [Jump to:](#jump-to)
 - [Global Site Data and .env](#global-site-data-and-env)
+	- [.env](#env)
 - [Template Languages Used](#template-languages-used)
 - [Layout Hierarchy and Features](#layout-hierarchy-and-features)
 - [Expected Frontmatter](#expected-frontmatter)
@@ -27,13 +31,23 @@ I spent a decade creating WordPress themes and plugins then flipped to product d
 - [Asset Handling](#asset-handling)
 - [Linting](#linting)
 - [Sass Framework](#sass-framework)
-- [Anchor links](#anchor-links)
-- [Sitemap](#sitemap)
-- [RSS Feed](#rss-feed)
-- [Social Share Preview Images](#social-share-preview-images)
+	- [Fonts](#fonts)
+- [Anchor Links](#anchor-links)
+- [Generated Features](#generated-features)
+	- [Sitemap](#sitemap)
+	- [RSS Feed](#rss-feed)
+	- [Social Share Preview Images](#social-share-preview-images)
+		- [Update template HTML](#update-template-html)
+		- [Update template style](#update-template-style)
+		- [Change included pages OR available data](#change-included-pages-or-available-data)
 - [Prism Syntax Highlighting](#prism-syntax-highlighting)
 - [.eleventy.js Config Features](#eleventyjs-config-features)
+	- [Overrides](#overrides)
+	- [Shortcode: `year`](#shortcode-year)
+	- [Filter: `slug`](#filter-slug)
 - [VSCode Tips](#vscode-tips)
+	- [Nunjucks](#nunjucks)
+	- [Formatting](#formatting)
 
 ## Global Site Data and .env
 
