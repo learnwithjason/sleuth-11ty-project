@@ -55,6 +55,8 @@
     "last 2 versions"
   ],
   "dependencies": {
+    "@sentry/browser": "^6.5.1",
+    "@sentry/tracing": "^6.5.1",
     "node-fetch": "^2.6.1"
   }
 }
