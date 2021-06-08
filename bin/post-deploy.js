@@ -16,4 +16,14 @@ fetch(
     method: "POST",
     body: `api_key=${API_KEY}&sha=${SHA}`,
   }
-);
+)
+  .then((res) => {
+    console.log({
+      status: res.status,
+      ok: res.ok,
+    });
+    return res.text();
+  })
+  .then((res) => {
+    console.log({ res });
+  });
