@@ -14,7 +14,13 @@ fetch(
   "https://app.sleuth.io/api/1/deployments/learnwithjason/sleuth-11ty-project/register_deploy",
   {
     method: "POST",
-    body: `api_key=${API_KEY}&sha=${SHA}`,
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({
+      api_key: API_KEY,
+      sha: SHA,
+    }),
   }
 )
   .then((res) => {
